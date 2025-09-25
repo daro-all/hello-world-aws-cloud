@@ -59,3 +59,10 @@ function showMessage(text, type) {
         messageDiv.style.display = 'none';
     }, 10000);
 }
+
+document.querySelector('.footer-name').addEventListener('mouseenter', function() {
+    document.body.classList.add('invert-page');
+    setTimeout(() => {
+        document.body.classList.remove('invert-page');
+    }, 3000);
+});

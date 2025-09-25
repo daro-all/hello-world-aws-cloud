@@ -99,6 +99,12 @@ main {
     border: 3px solid #e5e7eb;
     margin: 0 auto 20px auto;
     display: block;
+    transition: transform 0.2s;
+}
+
+.profile-photo:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 24px 4px #7877c6;
 }
 
 .fun-facts {
@@ -372,6 +378,12 @@ footer {
     padding: 40px 20px;
     color: #687078;
     font-size: 14px;
+}
+
+/* Usamos JS para agregar una clase al body */
+body.invert-page {
+    filter: invert(1) hue-rotate(180deg);
+    transition: filter 0.5s;
 }
 
 @media (max-width: 768px) {
