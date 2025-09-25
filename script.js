@@ -1,5 +1,6 @@
 // Contact form handler - Sends form data to AWS Lambda
-const LAMBDA_URL = 'https://ztmt774pqszndnpk2xiaba4c2y0rcvrg.lambda-url.us-east-2.on.aws/';
+// const LAMBDA_URL = 'https://ztmt774pqszndnpk2xiaba4c2y0rcvrg.lambda-url.us-east-2.on.aws/';
+const LAMBDA_URL = 'http://localhost:3000/contact';
 
 document.addEventListener('DOMContentLoaded', function() {
     const form = document.querySelector('.contact-form-container');
