@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         // Reset button
-        submitBtn.textContent = 'Send Message';
+        submitBtn.textContent = 'Send Message to Daro';
         submitBtn.disabled = false;
     });
 });
