@@ -17,9 +17,9 @@ Este proyecto forma parte del **Builder Challenge** presentado en Nerdearla, don
 ## Archivos del Proyecto 📁
 
 Los archivos ya están incluidos en este repositorio:
-- `index.html` - Contenido de tu sitio web
+- `index.html` - Contenido del sitio web
 - `styles.css` - Estilos del sitio web
-- `profile-photo.svg` - Imagen de perfil de ejemplo
+- `profile-photo.png` - Imagen de perfil
 
 ## Personaliza tu Sitio Web ✨
 

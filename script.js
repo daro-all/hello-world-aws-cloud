@@ -1,6 +1,5 @@
 // Contact form handler - Sends form data to AWS Lambda
-// const LAMBDA_URL = 'https://ztmt774pqszndnpk2xiaba4c2y0rcvrg.lambda-url.us-east-2.on.aws/';
-const LAMBDA_URL = 'http://localhost:3000/contact';
+const LAMBDA_URL = '';
 
 document.addEventListener('DOMContentLoaded', function() {
     const form = document.querySelector('.contact-form-container');
@@ -48,6 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+// Function to display messages to the user for 10 seconds
 function showMessage(text, type) {
     const messageDiv = document.getElementById('form-message');
     messageDiv.textContent = text;
@@ -60,6 +60,7 @@ function showMessage(text, type) {
     }, 10000);
 }
 
+// Footer hover effect - Inverts page colors on hover for 3 seconds
 document.querySelector('.footer-name').addEventListener('mouseenter', function() {
     document.body.classList.add('invert-page');
     setTimeout(() => {
